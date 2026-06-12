@@ -12,7 +12,9 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
+          child: Text(
+            'Hello World!, cambio en el main.dart    ajustando el main.dart para probar el hot reload',
+          ),
         ),
       ),
     );
